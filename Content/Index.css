@@ -1,0 +1,67 @@
+.btn-clear {
+    margin-top: 20px;
+    border: 2px solid #fff;
+    color: #fff;
+    font-size: 18px;
+}
+
+.btn-clear:hover, .btn-clear:focus, .btn-clear:active {
+    background-color: #fbfbfb;
+    color: #212529;
+}
+
+.flexContainer {
+    width: 650px;
+}
+
+#headshot {
+    height: 150px;
+    width: 150px;
+    border-radius: 75px;
+    border: 3px solid #fff;
+}
+
+#hero {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.3)), url("Images/Hero.jpeg");
+    width: 100%;
+    height: 90vh;
+    background-position: center bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: #fff;
+}
+
+#hero > .container {
+    height: 100%;
+}
+
+.introHeader {
+    margin: 20px 0 15px;
+    position: relative;
+    left: 4px;
+}
+
+.introText {
+    font-size: 20px;
+    font-family: sans-serif;
+    font-weight: 300;
+}
+
+.projectSeparator {
+    margin: 20px 0;
+}
+
+@media (max-width: 768px) {
+    .btn-clear {
+        font-size: 14px;
+    }
+
+    #headshot {
+        height: 125px;
+        width: 125px;
+    }
+
+    .introText {
+        font-size: 14px;
+    }
+}

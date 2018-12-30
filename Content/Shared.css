@@ -1,0 +1,117 @@
+body {
+    background-color: #e1e1e1;
+    color: #333;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 18px;
+    overflow-x: hidden;
+}
+
+.bodyContainer {
+    margin: -40px 25px 25px;
+    padding: 30px 0;
+    background: #fbfbfb;
+    min-height: 400px;
+    -webkit-box-shadow: 0px 10px 10px 10px rgba(0,0,0,0.2);
+    -moz-box-shadow: 0px 10px 10px 10px rgba(0,0,0,0.2);
+    box-shadow: 0px 10px 10px 10px rgba(0,0,0,0.2);
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Montserrat', sans-serif !important;
+}
+
+footer {
+    background-color: #242424;
+    color: #fff;
+    padding: 20px 0;
+    min-height: 200px;
+}
+
+footer hr {
+    border-top: 1px solid #fff;
+    margin-top: 0;
+}
+
+.footerLink {
+    color: #fff;
+}
+
+.footerLink:hover, .footerLink:active, .footerLink:focus {
+    color: #ccc;
+    text-decoration: none;
+}
+
+p {
+    margin-bottom: 0;
+}
+
+.navbar {
+    font-family: 'Montserrat', sans-serif;
+    color: #fff;
+    font-weight: 300;
+    background-color: transparent;
+}
+
+.navbar.scrolled {
+    background-color: #242424 !important;
+    transition: background-color 200ms linear;
+  }
+
+.navbar-brand {
+    font-size: 22px;
+}
+
+.navbar-toggler-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255,255,255, 1)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+}
+  
+.navbar-toggler {
+    border-color: rgb(255,255,255);
+} 
+
+.nav-item {
+    margin: 0 5px;
+}
+
+.nav-link {
+    color: #fff !important;
+    border-radius: 4px;
+    font-size: 18px;
+}
+
+.nav-link:hover, .nav-link:active, .nav-link:focus {
+    background-color: rgba(255, 255, 255, .3);
+}
+
+@media (max-width: 768px) {
+    body {
+        font-size: 14px;
+    }
+
+    h1, h2, h3 {
+        font-size: 18px;
+    }
+
+    h4, h5, h6 {
+        font-size: 16px;
+    }
+
+    .navbar-brand {
+        font-size: 18px;
+    }
+
+    .nav-item {
+        margin: 0;
+    }
+
+    .nav-link {
+        font-size: 14px;
+        margin-top: 5px;
+    }
+}
+
+@media (max-width: 576px) {
+    .fh2 {
+        margin-top: 20px;
+    }
+}
