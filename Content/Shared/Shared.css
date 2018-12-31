@@ -42,7 +42,7 @@ body {
 }
 
 #hero {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.3)), url("Images/Hero.jpeg");
+    background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.3)), url("../Images/Hero.jpeg");
     width: 100%;
     height: 30vh;
     background-position: center bottom;
