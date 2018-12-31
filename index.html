@@ -16,7 +16,7 @@
     </head>
     <body>
         <section id="hero">
-            <nav class="navbar sticky-top navbar-expand-md">
+            <nav class="navbar fixed-top navbar-expand-md">
                 <div class="container">
                     <span class="navbar-brand">Hunter Simpson</span>
                     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -41,12 +41,12 @@
                 </div>
             </nav>
             <div class="container">
-                <div class="d-flex align-items-center justify-content-center flex-wrap h-75">
+                <div class="d-flex align-items-center justify-content-center flex-wrap h-100">
                     <div class="text-center flexContainer">
                         <img src="Content/Images/Headshot.jpg" id="headshot" alt="Headshot" />
                         <h3 class="introHeader">Web Developer | Auburn Student</h3>
                         <p class="introText">
-                            Hello! My name is Hunter Simpson. I am an experienced web developer 
+                            Hello! My name is Hunter Simpson. I am an experienced .NET web developer 
                             currently seeking positions in either full-stack or front-end web 
                             development for May 2019.
                         </p>
@@ -74,6 +74,73 @@
                             </p>
                         </div>
                     </div>
+                    <div class="row">
+                        <div class="offset-1 col-10 offset-sm-0 col-sm-6 offset-md-1 col-md-5 mt-4">
+                            <a class="card" href="#">
+                                <img src="Content/Images/Portfolio.jpg" class="card-img-top" alt="Portfolio Screenshot">
+                                <div class="card-body">
+                                    <h4 class="card-title">My Portfolio</h4>
+                                    <hr />
+                                    <p class="card-text">
+                                        The website you are on right now! This site displays some
+                                        information about me, tracks any projects I have previously 
+                                        completed, and contains my contact info in case of any 
+                                        inquiries.
+                                    </p>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="offset-1 col-10 offset-sm-0 col-sm-6 col-md-5 mt-4">
+                            <a class="card" href="#">
+                                <img src="Content/Images/CWS.jpg" class="card-img-top" alt="CWS Screenshot">
+                                <div class="card-body">
+                                    <h4 class="card-title">CWS Co-Ops</h4>
+                                    <hr />
+                                    <p class="card-text">
+                                        During the CWS website redesign,  I was responsible for 
+                                        developing the landing page for potential co-op students. 
+                                        This page displays all information co-op students would 
+                                        need to know before interviewing with CWS. 
+                                    </p>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="offset-1 col-10 offset-sm-0 col-sm-6 offset-md-1 col-md-5 mt-5">
+                            <a class="card" href="#">
+                                <img src="Content/Images/ResearchMap.jpg" class="card-img-top" alt="Research Map Screenshot">
+                                <div class="card-body">
+                                    <h4 class="card-title">Research Map</h4>
+                                    <hr />
+                                    <p class="card-text">
+                                        Intended to be used by all Auburn faculty members to create 
+                                        flow chart style research proposals. Uses Draw2D.js to form
+                                        the research maps and allows the map to be exported as a svg.
+                                    </p>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="offset-1 col-10 offset-sm-0 col-sm-6 col-md-5 mt-5">
+                            <a class="card" href="#">
+                                <img src="Content/Images/AUFSTC.jpg" class="card-img-top" alt="AUFSTC Screenshot">
+                                <div class="card-body">
+                                    <h4 class="card-title">AUFSTC</h4>
+                                    <hr />
+                                    <p class="card-text">
+                                        Allows all Auburn students to manage their football ticket
+                                        purchases throughout the season, as well as manage guest 
+                                        tickets and track any penalties they may have obtained.
+                                    </p>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="row text-center mt-4">
+                        <div class="col-12">
+                            <a href="#" class="btn btn-outline-dark">View All Projects<i class="fas fa-angle-double-right ml-2" aria-hidden></i></a>
+                        </div>
+                    </div>
                 </div>
             </div>
         </section>
@@ -83,18 +150,18 @@
                 <div class="container">
                     <div class="row">
                         <div class="offset-sm-1 col-sm-5 offset-md-2 col-md-4">
-                            <h4>Contact</h4>
-                            <hr />
-                            <a href="https://goo.gl/maps/494FF4F7MX72" class="footerLink"><i class="fas fa-map-marker-alt fa-fw" aria-hidden></i> Auburn, AL</a><br />
-                            <a href="mailto:hunter@simpson.codes" class="footerLink"><i class="fas fa-envelope fa-fw" aria-hidden></i> hunter@simpson.codes</a><br />
-                            <a href="https://github.com/hsimp4/hsimp4.github.io/blob/master/LICENSE" class="footerLink"><i class="far fa-copyright fa-fw" aria-hidden></i> Copyright <script>date = new Date(); document.write(date.getFullYear());</script></a>
-                        </div>
-                        <div class="col-sm-5 col-md-4 fh2">
                             <h4>Connect</h4>
                             <hr />
-                            <a href="https://www.facebook.com/hsimp4" class="footerLink"><i class="fab fa-facebook fa-fw" aria-hidden></i> Facebook</a><br />
-                            <a href="https://github.com/hsimp4" class="footerLink"><i class="fab fa-github fa-fw" aria-hidden></i> Github</a><br />
-                            <a href="https://www.linkedin.com/in/hsimpson270/" class="footerLink"><i class="fab fa-linkedin fa-fw" aria-hidden></i> LinkedIn</a>
+                            <a href="https://www.facebook.com/hsimp4" class="footerLink" target="_blank" rel="noopener"><i class="fab fa-facebook fa-fw" aria-hidden></i> Facebook</a><br />
+                            <a href="https://github.com/hsimp4" class="footerLink" target="_blank" rel="noopener"><i class="fab fa-github fa-fw" aria-hidden></i> Github</a><br />
+                            <a href="https://www.linkedin.com/in/hsimpson270/" class="footerLink" target="_blank" rel="noopener"><i class="fab fa-linkedin fa-fw" aria-hidden></i> LinkedIn</a>
+                        </div>
+                        <div class="col-sm-5 col-md-4 fh2">
+                            <h4>Info</h4>
+                            <hr />
+                            <a href="mailto:hunter@simpson.codes" class="footerLink"><i class="fas fa-envelope fa-fw" aria-hidden></i> hunter@simpson.codes</a><br />
+                            <a href="https://goo.gl/maps/494FF4F7MX72" class="footerLink" target="_blank" rel="noopener"><i class="fas fa-map-marker-alt fa-fw" aria-hidden></i> Auburn, AL</a><br />
+                            <a href="https://github.com/hsimp4/hsimp4.github.io/blob/master/LICENSE" class="footerLink" target="_blank" rel="noopener"><i class="far fa-copyright fa-fw" aria-hidden></i> Copyright <script>date = new Date(); document.write(date.getFullYear());</script></a>
                         </div>
                     </div>
                 </div>
@@ -104,14 +171,6 @@
         <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous"></script>
         <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous"></script>
-
-        <script>
-            $(function () {
-                $(document).scroll(function () {
-                    var $nav = $(".navbar");
-                    $nav.toggleClass('scrolled', $(this).scrollTop() > $nav.height());
-                });
-            });
-        </script>
+        <script src="Scripts/Shared.js"></script>
     </body>
 </html>

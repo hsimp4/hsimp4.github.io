@@ -4,16 +4,41 @@ body {
     font-family: 'Source Sans Pro', sans-serif;
     font-size: 18px;
     overflow-x: hidden;
+    text-rendering: optimizeLegibility;
 }
 
 .bodyContainer {
-    margin: -40px 25px 25px;
-    padding: 30px 0;
+    margin: -40px 25px 35px;
+    padding: 35px 0;
     background: #fbfbfb;
     min-height: 400px;
     -webkit-box-shadow: 0px 10px 10px 10px rgba(0,0,0,0.2);
     -moz-box-shadow: 0px 10px 10px 10px rgba(0,0,0,0.2);
     box-shadow: 0px 10px 10px 10px rgba(0,0,0,0.2);
+}
+
+.card {
+    box-shadow: 0 2px 5px rgba(0,0,0,0.3);
+    background-color: #f8f9fa;
+    min-height: 475px;
+}
+
+.card:hover, .card:focus, .card:active {
+    box-shadow: 0 4px 10px rgba(0,0,0,0.35);
+    text-decoration: none !important;
+}
+
+.card-body hr {
+    margin-top: 0;
+    margin-bottom: 0.75rem;
+}
+
+.card-img-top {
+    box-shadow: 0 2px 5px rgba(0,0,0,0.3);
+}
+
+.card-text, .card-title {
+    color: #333;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -59,6 +84,7 @@ p {
 
 .navbar-brand {
     font-size: 22px;
+    text-shadow: 0 4px 3px rgba(0,0,0,.4),0 8px 13px rgba(0,0,0,.1),0 18px 23px rgba(0,0,0,.1)
 }
 
 .navbar-toggler-icon {
@@ -77,6 +103,7 @@ p {
     color: #fff !important;
     border-radius: 4px;
     font-size: 18px;
+    text-shadow: 0 4px 3px rgba(0,0,0,.4),0 8px 13px rgba(0,0,0,.1),0 18px 23px rgba(0,0,0,.1)
 }
 
 .nav-link:hover, .nav-link:active, .nav-link:focus {
@@ -86,6 +113,10 @@ p {
 @media (max-width: 768px) {
     body {
         font-size: 14px;
+    }
+
+    .card {
+        min-height: 365px;
     }
 
     h1, h2, h3 {
@@ -113,5 +144,9 @@ p {
 @media (max-width: 576px) {
     .fh2 {
         margin-top: 20px;
+    }
+
+    .card {
+        min-height: 0;
     }
 }
