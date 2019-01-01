@@ -5,7 +5,7 @@ $(function () {
     });
 
     $('.lazy').Lazy({
-        threshold: 250,
+        threshold: 200,
         scrollDirection: 'vertical',
         visibleOnly: true,
         onError: function(element) {

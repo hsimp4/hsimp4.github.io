@@ -1,18 +1,13 @@
-.btn-clear {
-    margin-top: 20px;
-    border: 2px solid #fbfbfb;
-    color: #fbfbfb;
+.btn-outline-dark, .btn-outline-success {
     font-size: 18px;
-    text-shadow: 0 4px 3px rgba(0,0,0,.4),0 8px 13px rgba(0,0,0,.1),0 18px 23px rgba(0,0,0,.1)
 }
 
-.btn-clear:hover, .btn-clear:focus, .btn-clear:active {
-    background-color: #fbfbfb;
-    color: #212529;
+.btn-outline-success {
+    background-color: #fff;
 }
 
-.btn-outline-dark {
-    font-size: 18px;
+#contactForm {
+    background-color: #eef2f5;
 }
 
 .fa-angle-double-right {
@@ -20,24 +15,30 @@
     top: 1px;
 }
 
+.fa-spinner {
+    display: none;
+}
+
 .flexContainer {
     width: 650px;
 }
 
-#headshot {
+.footerHeadshotContainer {
+    width: 100%;
+    margin: 0 auto;
+}
+
+.footerName {
+    font-size: 20px;
+}
+
+.headshotHero {
     height: 150px;
     width: 150px;
-    border-radius: 75px;
-    border: 3px solid #fbfbfb;
-    box-shadow: 0 4px 3px rgba(0,0,0,.4),0 8px 13px rgba(0,0,0,.1),0 18px 23px rgba(0,0,0,.1)
 }
 
 #hero {
     height: 90vh;
-}
-
-#hero > .container {
-    height: 100%;
 }
 
 .introHeader {
@@ -55,25 +56,25 @@
     text-shadow: 0 4px 3px rgba(0,0,0,.4),0 8px 13px rgba(0,0,0,.1),0 18px 23px rgba(0,0,0,.1)
 }
 
-.projectSeparator {
+.separator {
     margin: 20px 0;
 }
 
+.thanks {
+    display: none;
+}
+
 @media (max-width: 768px) {
-    .btn-clear {
+    .btn-outline-dark, .btn-outline-success, .introText {
         font-size: 14px;
     }
 
-    .btn-outline-dark {
-        font-size: 14px;
-    }
-
-    #headshot {
+    .headshotHero {
         height: 125px;
         width: 125px;
     }
 
-    .introText {
-        font-size: 14px;
+    #hero {
+        height: 80vh;
     }
 }
