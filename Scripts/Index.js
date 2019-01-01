@@ -80,7 +80,7 @@
         } else {
             disableAllButtons(form);
             var spinner = document.querySelector(".fa-spinner");
-            spinner.style.display = "display-block";
+            spinner.style.display = "inline-block";
             var url = form.action;
             var xhr = new XMLHttpRequest();
             xhr.open('POST', url);
