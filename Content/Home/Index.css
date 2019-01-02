@@ -15,7 +15,7 @@
     top: 1px;
 }
 
-.fa-spinner {
+.fa-spinner, .thanks {
     display: none;
 }
 
@@ -56,12 +56,12 @@
     text-shadow: 0 4px 3px rgba(0,0,0,.4),0 8px 13px rgba(0,0,0,.1),0 18px 23px rgba(0,0,0,.1)
 }
 
-.separator {
-    margin: 20px 0;
+#Message {
+    min-height: 134px;
 }
 
-.thanks {
-    display: none;
+.separator {
+    margin: 20px 0;
 }
 
 @media (max-width: 768px) {
