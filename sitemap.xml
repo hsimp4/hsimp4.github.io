@@ -13,22 +13,22 @@
   <priority>1.00</priority>
 </url>
 <url>
-  <loc>https://simpson.codes/Resume</loc>
+  <loc>https://simpson.codes/resume</loc>
   <lastmod>2019-01-03T04:33:26+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>https://simpson.codes/Projects</loc>
+  <loc>https://simpson.codes/projects</loc>
   <lastmod>2019-01-03T04:33:26+00:00</lastmod>
   <priority>0.90</priority>
 </url>
 <url>
-  <loc>https://simpson.codes/About</loc>
+  <loc>https://simpson.codes/about</loc>
   <lastmod>2019-01-03T04:33:26+00:00</lastmod>
   <priority>0.70</priority>
 </url>
 <url>
-  <loc>https://simpson.codes/Contact</loc>
+  <loc>https://simpson.codes/contact</loc>
   <lastmod>2019-01-03T04:33:26+00:00</lastmod>
   <priority>0.60</priority>
 </url>
