@@ -1,0 +1,95 @@
+.date {
+    color: rgba(0,0,0,.6);
+}
+
+.h5 b {
+    font-family: "Source Sans Pro", sans-serif;
+}
+
+.media a {
+    color: #333;
+}
+
+.skill > a > img {
+    height: 80px;
+    width: auto;
+}
+
+.skill > a > p {
+    font-size: 18px;
+}
+
+.skill:hover > a {
+    background-color: #eef2f5;
+    border-radius: 4px;
+}
+
+@media (min-width: 992px) {
+    .one, .five {
+        border-right: solid 1px #eef2f5;
+    }
+
+    .two, .three, .six, .seven {
+        border-left: solid 1px #eef2f5;
+        border-right: solid 1px #eef2f5;
+    }
+
+    .four, .eight {
+        border-left: solid 1px #eef2f5;
+    }
+
+    .one, .two, .three, .four {
+        margin-bottom: 40px;
+        margin-top: 20px;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+    .one, .four, .seven {
+        border-right: solid 1px #eef2f5;
+    }
+
+    .two, .five {
+        border-left: solid 1px #eef2f5;
+        border-right: solid 1px #eef2f5;
+    }
+
+    .three, .six, .eight {
+        border-left: solid 1px #eef2f5;
+    }
+
+    .one, .two, .three {
+        margin-top: 20px;
+    }
+
+    .one, .two, .three, .four, .five, .six {
+        margin-bottom: 30px;
+    }
+}
+
+@media (max-width: 767px) {
+    .one, .three, .five, .seven {
+        border-right: solid 1px #eef2f5;
+    }
+
+    .two, .four, .six, .eight {
+        border-left: solid 1px #eef2f5;
+    }
+
+    .one, .two {
+        margin-top: 10px;
+    }
+
+    .one, .two, .three, .four, .five, .six {
+        margin-bottom: 20px;
+    }
+
+    .skill > a > img {
+        height: 64px;
+        width: auto;
+    }
+
+    .skill > a > p {
+        font-size: 14px;
+    }
+}

@@ -23,31 +23,6 @@ body {
     -moz-box-shadow: 0 4px 3px rgba(0,0,0,.4),0 8px 13px rgba(0,0,0,.1),0 18px 23px rgba(0,0,0,.1);
 }
 
-.card {
-    box-shadow: 0 2px 5px rgba(0,0,0,0.3);
-    background-color: #f8f9fa;
-    min-height: 475px;
-}
-
-.card:hover, .card:focus, .card:active {
-    box-shadow: 0 4px 10px rgba(0,0,0,0.35);
-    text-decoration: none !important;
-}
-
-.card-body hr {
-    margin-top: 0;
-    margin-bottom: 0.75rem;
-}
-
-.card-img-top {
-    box-shadow: 0 2px 5px rgba(0,0,0,0.3);
-    height: auto;
-}
-
-.card-text, .card-title {
-    color: #333;
-}
-
 .gradient {
     border-width: 90px 99vw 0 0;
     border-style: solid;
@@ -68,7 +43,7 @@ body {
 }
 
 #hero {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.3)), url("../Images/Hero.jpeg");
+    background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.5)), url("../Images/Hero.jpeg");
     width: 100%;
     height: 30vh;
     background-position: center;
@@ -98,8 +73,17 @@ footer hr {
 }
 
 .footerLink:hover, .footerLink:active, .footerLink:focus {
-    color: #c8c8c8;
+    color: rgba(255, 255, 255, .3);
     text-decoration: none;
+}
+
+.footerLogo {
+    padding: 12px;
+    border-radius: 80px;
+}
+
+.footerLogo:hover, .footerLogo:active, .footerLogo:focus {
+    background-color: rgba(255, 255, 255, .3);
 }
 
 .mainImage {
@@ -153,6 +137,12 @@ p {
 
 .textShadow {
     text-shadow: 0 4px 3px rgba(0,0,0,.4),0 8px 13px rgba(0,0,0,.1),0 18px 23px rgba(0,0,0,.1);
+}
+
+@media (min-width: 1400px) {
+    .container {
+        max-width: 1400px;
+    }
 }
 
 @media (max-width: 768px) {

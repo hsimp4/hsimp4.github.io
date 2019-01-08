@@ -79,7 +79,7 @@
             return false;
         } else {
             disableAllButtons(form);
-            var spinner = document.querySelector(".fa-spinner");
+            var spinner = document.querySelector(".spinner-border");
             spinner.style.display = "inline-block";
             var url = form.action;
             var xhr = new XMLHttpRequest();

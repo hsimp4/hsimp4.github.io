@@ -14,8 +14,6 @@
     <link href="https://fonts.googleapis.com/css?family=Montserrat|Source+Sans+Pro" rel="stylesheet">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS"
         crossorigin="anonymous">
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/"
-        crossorigin="anonymous">
     <link href="Content/Shared/Shared.min.css" rel="stylesheet">
     <link href="Content/Home/Index.min.css" rel="stylesheet">
 </head>
@@ -51,8 +49,8 @@
             <div class="d-flex align-items-center justify-content-center flex-wrap h-100">
                 <div class="text-center flexContainer">
                     <img src="Content/Images/Headshot.jpg" class="headshot headshotHero boxShadow" alt="Headshot" />
-                    <p class="introHeader">Web Developer | Auburn Student</p>
-                    <p class="introText">
+                    <h2 class="introHeader textShadow">Web Developer | Auburn Student</h2>
+                    <p class="introText textShadow">
                         Hello! My name is Hunter Simpson. I am an experienced .NET web developer
                         currently seeking positions in either front-end or full-stack web
                         development for May 2019.
@@ -84,8 +82,7 @@
                     <div class="row">
                         <div class="col-12 col-sm-6 offset-md-1 col-md-5 mt-4">
                             <a class="card" href="projects#portfolio">
-                                <img class="card-img-top lazy" alt="Portfolio Screenshot"
-                                    data-src="Content/Images/Portfolio.jpg">
+                                <img class="card-img-top lazy" alt="Portfolio Screenshot" data-src="Content/Images/Portfolio.jpg">
                                 <div class="card-body">
                                     <h3 class="card-title h4">My Portfolio</h3>
                                     <hr />
@@ -117,8 +114,7 @@
                     <div class="row d-none d-lg-flex">
                         <div class="col-12 offset-sm-0 col-sm-6 offset-md-1 col-md-5 mt-5">
                             <a class="card" href="projects#researchmap">
-                                <img class="card-img-top lazy" alt="Research Map Screenshot"
-                                    data-src="Content/Images/ResearchMap.jpg">
+                                <img class="card-img-top lazy" alt="Research Map Screenshot" data-src="Content/Images/ResearchMap.jpg">
                                 <div class="card-body">
                                     <h3 class="card-title h4">Research Map</h3>
                                     <hr />
@@ -132,8 +128,7 @@
                         </div>
                         <div class="col-12 offset-sm-0 col-sm-6 col-md-5 mt-5">
                             <a class="card" href="projects#AUFSTC">
-                                <img class="card-img-top lazy" alt="AUFSTC Screenshot"
-                                    data-src="Content/Images/AUFSTC.jpg">
+                                <img class="card-img-top lazy" alt="AUFSTC Screenshot" data-src="Content/Images/AUFSTC.jpg">
                                 <div class="card-body">
                                     <h3 class="card-title h4">AUFSTC</h3>
                                     <hr />
@@ -146,18 +141,12 @@
                             </a>
                         </div>
                     </div>
-                    <div class="row text-center mt-4">
-                        <div class="col-12">
-                            <a href="projects" class="btn btn-outline-dark">View All Projects<i class="fas fa-angle-double-right ml-2"
-                                    aria-hidden="true"></i></a>
-                        </div>
-                    </div>
                 </div>
             </section>
 
             <div class="gradient gradient1"></div>
 
-            <section id="contactForm" class="pt-4 pb-5">
+            <section id="contactForm" class="py-4">
                 <div class="container">
                     <div class="row">
                         <div class="col-12 text-center">
@@ -197,8 +186,8 @@
                             </div>
                             <label class="sr-only" for="honeypot">Keep this field blank</label>
                             <input id="honeypot" type="text" name="honeypot" value="" class="d-none" />
-                            <button class="btn btn-outline-success" type="submit"><i class="fas fa-spin fa-spinner"
-                                    aria-hidden="true"></i> Submit</button>
+                            <button class="btn btn-success" type="submit"><span class="spinner-border spinner-border-sm"
+                                    role="status" aria-hidden="true"></span> Submit</button>
                         </div>
                         <div class="thanks">
                             <div class="row">
@@ -230,12 +219,15 @@
                     <div class="d-flex align-items-center justify-content-center h-100 flex-wrap">
                         <div class="row w-100">
                             <div class="col-12 offset-md-1 col-md-10 d-flex justify-content-around">
-                                <a href="https://www.facebook.com/hsimp4" class="footerLink" target="_blank" rel="noopener"><i
-                                        class="fab fa-facebook-f fa-fw fa-3x"></i><span class="sr-only">Facebook</span></a>
-                                <a href="https://github.com/hsimp4" class="footerLink" target="_blank" rel="noopener"><i
-                                        class="fab fa-github fa-fw fa-3x"></i><span class="sr-only">Github</span></a>
-                                <a href="https://www.linkedin.com/in/hsimpson270/" class="footerLink" target="_blank"
-                                    rel="noopener"><i class="fab fa-linkedin-in fa-fw fa-3x"></i><span class="sr-only">LinkedIn</span></a>
+                                <a href="https://www.facebook.com/hsimp4" class="footerLink footerLogo" target="_blank"
+                                    rel="noopener"><img data-src="Content/Images/Facebook.png" alt="Facebook Logo"
+                                        height="48" width="48" class="lazy"></a>
+                                <a href="https://github.com/hsimp4" class="footerLink footerLogo" target="_blank" rel="noopener"><img
+                                        data-src="Content/Images/Github.png" alt="Github Logo" height="48" width="48"
+                                        class="lazy"></a>
+                                <a href="https://www.linkedin.com/in/hsimpson270/" class="footerLink footerLogo" target="_blank"
+                                    rel="noopener"><img data-src="Content/Images/LinkedIn.png" alt="LinkedIn Logo"
+                                        height="48" width="48" class="lazy"></a>
                             </div>
                         </div>
                         <div class="row w-100 mt-4">
@@ -243,8 +235,7 @@
                                 <a href="privacypolicy" class="footerLink">Privacy Policy</a> |
                                 <a href="sitemap" class="footerLink">Sitemap</a> |
                                 <a href="https://github.com/hsimp4/hsimp4.github.io/blob/master/LICENSE" class="footerLink">
-                                    © Copyright
-                                    <script>date = new Date(); document.write(date.getFullYear());</script></a>
+                                    © Copyright 2019</a>
                             </div>
                         </div>
                     </div>
@@ -254,8 +245,6 @@
     </footer>
 
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
-        crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut"
         crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k"
         crossorigin="anonymous"></script>
