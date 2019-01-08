@@ -88,6 +88,10 @@
         font-size: 14px;
     }
 
+    .card {
+        min-height: 365px;
+    }
+
     .headshotHero {
         height: 125px;
         width: 125px;
@@ -99,5 +103,11 @@
 
     .introHeader {
         font-size: 18px;
+    }
+}
+
+@media (max-width: 576px) {
+    .card {
+        min-height: 0;
     }
 }
