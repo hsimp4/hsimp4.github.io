@@ -13,7 +13,9 @@
     <link href="https://fonts.googleapis.com/css?family=Montserrat|Source+Sans+Pro" rel="stylesheet">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS"
         crossorigin="anonymous">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link href="Content/Shared/Shared.min.css" rel="stylesheet">
+    <link href="Content/Projects/Projects.min.css" rel="stylesheet">
 </head>
 
 <body>
@@ -36,9 +38,9 @@
                         <li class="nav-item">
                             <a class="nav-link textShadow" href="projects">Projects</a>
                         </li>
-                        <li class="nav-item">
-                            <a class="nav-link textShadow" href="about">About</a>
-                        </li>
+                        <!-- <li class="nav-item">
+                            <a class="nav-link textShadow" href="About">About</a>
+                        </li> -->
                     </ul>
                 </div>
             </div>
@@ -46,18 +48,389 @@
     </header>
 
     <main id="content">
-        <div class="bodyContainer rounded pb-4">
-            <div class="container">
-                <div class="row">
-                    <div class="col-12 offset-sm-1 col-sm-10 offset-md-2 col-md-8 offset-lg-3 col-lg-6 text-center">
-                        <img data-src="Content/Images/Construction.svg" alt="Construction" class="mainImage mb-4 lazy" />
-                        <h2>Coming soon!</h2>
-                        <p>
-                            This page is currently under construction and will be published at a later date.
-                        </p>
+        <div class="bodyContainer rounded">
+            <section>
+                <div id="portfolio"></div>
+                <div class="container py-3 firstContainer">
+                    <div class="row">
+                        <div class="col-12 col-md-6 col-lg-7 projectInfo order-2 order-md-1">
+                            <a class="titleLink" href="./">
+                                <h3 class="h4"><b>Simpson.codes</b></h3>
+                            </a>
+                            <hr class="my-2" />
+
+                            <span class="greyText">Client: </span>
+                            <span>Personal Project</span><br />
+
+                            <span class="greyText">Completion Date: </span>
+                            <span>January 2019</span><br />
+
+                            <span class="greyText">Skillset: </span>
+                            <span class="badge badge-pill badge-success">Bootstrap</span>
+                            <span class="badge badge-pill badge-success">CSS</span>
+                            <span class="badge badge-pill badge-success">Git</span>
+                            <span class="badge badge-pill badge-success">HTML</span>
+                            <span class="badge badge-pill badge-success">Javascript</span>
+                            <span class="badge badge-pill badge-success">JQuery</span>
+                            <hr class="my-2" />
+
+                            <div class="projectParagraphs text-justify">
+                                <p>
+                                    &nbsp&nbsp&nbsp&nbsp&nbspThis website is my own
+                                    personal portfolio consisting of four main pages designed to
+                                    illustrate who I am and what I have accomplished throughout my
+                                    career in web development.
+                                </p>
+                                <p>
+                                    &nbsp&nbsp&nbsp&nbsp&nbspMy goal for creating this site was to
+                                    place myself into the role of my targeted user (a recruiter or
+                                    reviewer) and design a site to fit their needs. This resulted in
+                                    what I see as two use cases: a 30 second visit and a 5 minute
+                                    visit (or longer).
+                                </p>
+                                <p>
+                                    &nbsp&nbsp&nbsp&nbsp&nbspThe home page was designed to meet the
+                                    requirements of a 30 second visit. My thought process was to place
+                                    myself into the shoes of a reviewer who has a lot on their plate
+                                    and has a short amount of time to give me, similar to a resume
+                                    review process. As a result, I decided to only show a brief
+                                    introduction about myself and my most recent projects on the home
+                                    page. This shows the reviewer everything they would need to know
+                                    in 30 seconds - who I am, and what I have done.
+                                </p>
+                                <p>
+                                    &nbsp&nbsp&nbsp&nbsp&nbspThe rest of the site was designed to be
+                                    used during longer visits. It shows my work history and skill set
+                                    (resume), more details on every project I have finished, and some
+                                    more detailed information about myself. Each of these pages would
+                                    be available if the reviewer wanted to know more about me, but
+                                    would not be absolutely necessary.
+                                </p>
+                                <p>
+                                    &nbsp&nbsp&nbsp&nbsp&nbspOverall, I think I accomplished my
+                                    original goal, and I learned a lot in the process as well. I
+                                    learned how to develop a github pages site, with the added bonus
+                                    of learning how to use git to manage project check-ins. I improved
+                                    on my web design skills, and overcame odd challenges such as
+                                    having a form submission on a static website with no backend (I
+                                    ended up using a Google form and submitting the form on my site to
+                                    that). I believe this site represents me very well as of the time
+                                    of completion and I look forward to being able to continue to
+                                    improve myself as I finish more projects in the future.
+                                </p>
+                            </div>
+                        </div>
+                        <div class="col-12 offset-sm-1 col-sm-10 offset-md-0 col-md-6 col-lg-5 order-1 order-md-2">
+                            <div class="projectIMGContainer">
+                                <img src="Content/Images/PortfolioFS.jpg" class="projectIMG" alt="My portfolio full screenshot">
+                            </div>
+                        </div>
                     </div>
                 </div>
-            </div>
+            </section>
+            <div class="gradient1"></div>
+            <section class="grey">
+                <div id="CWS"></div>
+                <div class="container py-3">
+                    <div class="row" data-aos="fade-left">
+                        <div class="col-12 offset-sm-1 col-sm-10 offset-md-0 col-md-6 col-lg-5">
+                            <div class="projectIMGContainer">
+                                <img data-src="Content/Images/CWSFS.jpg" class="projectIMG lazy" alt="CWS Co-Op full screenshot">
+                            </div>
+                        </div>
+                        <div class="col-12 col-md-6 col-lg-7 projectInfo">
+                            <a class="titleLink" href="https://cws.auburn.edu/cws/about">
+                                <h3 class="h4"><b>CWS Co-Ops</b></h3>
+                            </a>
+                            <hr class="my-2" />
+
+                            <span class="greyText">Client: </span>
+                            <span>Campus Web Solutions</span><br />
+
+                            <span class="greyText">Completion Date: </span>
+                            <span>September 2018</span><br />
+
+                            <span class="greyText">Skillset: </span>
+                            <span class="badge badge-pill badge-success">Bootstrap</span>
+                            <span class="badge badge-pill badge-success">CSS</span>
+                            <span class="badge badge-pill badge-success">C#</span>
+                            <span class="badge badge-pill badge-success">HTML</span>
+                            <span class="badge badge-pill badge-success">Javascript</span>
+                            <span class="badge badge-pill badge-success">JQuery</span>
+                            <span class="badge badge-pill badge-success">.NET MVC</span>
+                            <span class="badge badge-pill badge-success">TFS</span>
+                            <hr class="my-2" />
+
+                            <div class="projectParagraphs text-justify">
+                                <p>
+                                    &nbsp&nbsp&nbsp&nbsp&nbspIn early spring 2018, myself and one other
+                                    developer were tasked with redesigning the CWS website. During this
+                                    redesign process I was responsible for developing the co-ops page,
+                                    which shows potential co-op students the information they would
+                                    need to know if they were to co-op at CWS, as well as a few
+                                    components on the home page before handing those off to another
+                                    developer.
+                                </p>
+                                <p>
+                                    &nbsp&nbsp&nbsp&nbsp&nbspOur goal for the co-ops page was to
+                                    display all important information cleanly and update our web
+                                    design to 2018 standards. In addition to this, I was responsible
+                                    for creating this page from scratch, including the overall design
+                                    and layout of the page. This was a challenge for me at the time
+                                    due to having no prior resources to get me started. It was also
+                                    the first website I had made using Bootstrap 4 so I had to learn
+                                    it as I went as well.
+                                </p>
+                                <p>
+                                    In the end, I was able to develop a layout that looked pretty good
+                                    and accomplished all of our goals. It utilized flexbox and the
+                                    more full-screen/large font design practices of 2018 and taught me
+                                    a lot about developing for the UX instead of just focusing on UI
+                                    like I had in previous projects. Also, there were quite a few
+                                    components I was very fond of, which is why you may notice some
+                                    similarities between my portfolio site and this page.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <div class="gradient2"></div>
+            <section>
+                <div id="researchmap"></div>
+                <div class="container py-3">
+                    <div class="row" data-aos="fade-right">
+                        <div class="col-12 col-md-6 col-lg-7 projectInfo order-2 order-md-1">
+                            <h3 class="h4">
+                                <b>Research Map</b>
+                                <span class="greyText greySubheader"> (Requires AU Login)</span>
+                            </h3>
+                            <hr class="my-2" />
+
+                            <span class="greyText">Client: </span>
+                            <span>Office of the Provost - Auburn University</span><br />
+
+                            <span class="greyText">Completion Date: </span>
+                            <span>August 2017</span><br />
+
+                            <span class="greyText">Skillset: </span>
+                            <span class="badge badge-pill badge-success">Bootstrap</span>
+                            <span class="badge badge-pill badge-success">CSS</span>
+                            <span class="badge badge-pill badge-success">C#</span>
+                            <span class="badge badge-pill badge-success">Draw2D.js</span>
+                            <span class="badge badge-pill badge-success">Entity Framework</span>
+                            <span class="badge badge-pill badge-success">HTML</span>
+                            <span class="badge badge-pill badge-success">Javascript</span>
+                            <span class="badge badge-pill badge-success">JQuery</span>
+                            <span class="badge badge-pill badge-success">.NET MVC</span>
+                            <span class="badge badge-pill badge-success">SQL</span>
+                            <span class="badge badge-pill badge-success">TFS</span>
+                            <hr class="my-2" />
+
+                            <div class="projectParagraphs text-justify">
+                                <p>
+                                    &nbsp&nbsp&nbsp&nbsp&nbspResearch Map was designed to allow staff 
+                                    members at Auburn University to create flow chart style research 
+                                    maps to show research progress at Auburn University. For this 
+                                    project, I was responsible for leading two other developers during 
+                                    my third co-op and our team was the first in CWS history to 
+                                    complete two projects in one semester, with AUFSTC being the first.
+                                </p>
+                                <p>
+                                    &nbsp&nbsp&nbsp&nbsp&nbspThis project had its own unique set of 
+                                    challenges to overcome, such as random issues caused by Draw2D.js 
+                                    which we used for the editor portion of the site. My personal 
+                                    development responsibilities for this site included the entire 
+                                    sites UI/UX design/development, the project creations, and Draw2D 
+                                    bugs as they arrived.
+                                </p>
+                            </div>
+                        </div>
+                        <div class="col-12 offset-sm-1 col-sm-10 offset-md-0 col-md-6 col-lg-5 order-1 order-md-2">
+                            <div class="projectIMGContainer">
+                                <img data-src="Content/Images/ResearchMapFS.jpg" class="projectIMG lazy" alt="Research Map full screenshot">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <div class="gradient1"></div>
+            <section class="grey">
+                <div id="AUFSTC"></div>
+                <div class="container py-3">
+                    <div class="row" data-aos="fade-left">
+                        <div class="col-12 offset-sm-1 col-sm-10 offset-md-0 col-md-6 col-lg-5">
+                            <div class="projectIMGContainer">
+                                <img data-src="Content/Images/AUFSTCFS.jpg" class="projectIMG lazy" alt="AUFSTC full screenshot">
+                            </div>
+                        </div>
+                        <div class="col-12 col-md-6 col-lg-7 projectInfo">
+                            <h3 class="h4">
+                                <b>AUFSTC</b>
+                                <span class="greyText greySubheader"> (Requires AU Login)</span>
+                            </h3>
+                            <hr class="my-2" />
+
+                            <span class="greyText">Client: </span>
+                            <span>Auburn University SGA and Athletics</span><br />
+
+                            <span class="greyText">Completion Date: </span>
+                            <span>July 2017</span><br />
+
+                            <span class="greyText">Skillset: </span>
+                            <span class="badge badge-pill badge-success">Bootstrap</span>
+                            <span class="badge badge-pill badge-success">CSS</span>
+                            <span class="badge badge-pill badge-success">C#</span>
+                            <span class="badge badge-pill badge-success">Entity Framework</span>
+                            <span class="badge badge-pill badge-success">HTML</span>
+                            <span class="badge badge-pill badge-success">Javascript</span>
+                            <span class="badge badge-pill badge-success">JQuery</span>
+                            <span class="badge badge-pill badge-success">.NET MVC</span>
+                            <span class="badge badge-pill badge-success">SQL</span>
+                            <span class="badge badge-pill badge-success">TFS</span>
+                            <hr class="my-2" />
+
+                            <div class="projectParagraphs text-justify">
+                                <p>
+                                    &nbsp&nbsp&nbsp&nbsp&nbspAUFSTC (Auburn University Football 
+                                    Student Ticketing Center) is by far the biggest and most 
+                                    high profile project I have ever created. It was designed to
+                                    replace the old ticketing system the student body used to manage
+                                    their football ticket purchases after SGA enacted new rules for
+                                    football tickets prior to the 2017 season. AUFSTC allows all Auburn
+                                    students to return their tickets to a central pool where other
+                                    students may request from, manage their guest ticket purchases,
+                                    manage any penalties that may occur, and appeal those penalties if
+                                    they so desire.
+                                </p>
+                                <p>
+                                    &nbsp&nbsp&nbsp&nbsp&nbspFor this project, I was responsible
+                                    for leading a team of myself and two other developers to create
+                                    this project in a month and a half to ensure it would be ready
+                                    for football season. My role as lead developer included ensuring
+                                    the project was staying on schedule and presenting project updates
+                                    before SGA and Auburn Athletics. My individual developer roles 
+                                    consisted of developing the entire site's UI/UX and included some
+                                    backend work for form submissions throughout the site.
+                                </p>
+                                <p>
+                                    &nbsp&nbsp&nbsp&nbsp&nbspAfter completion, the project was featured
+                                    on the Auburn local televison station as well as in the campus paper.
+                                    In the 2018 season alone, the ticket request page received over 
+                                    32,000 hits and more than 1,600 penalty point appeals were made.
+                                    This project was the biggest in my company's history at the time
+                                    and is what I consider my greatest web achievement to date due to the
+                                    high usage it receives and because of how important it is to the student
+                                    body here at Auburn.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <div class="gradient2"></div>
+            <section>
+                <div class="container py-3">
+                    <div class="row" data-aos="fade-right">
+                        <div class="col-12 col-md-6 col-lg-7 projectInfo order-2 order-md-1">
+                            <a class="titleLink" href="https:www.weimmunize.com">
+                                <h3 class="h4"><b>WE Immunize</b></h3>
+                            </a>
+                            <hr class="my-2" />
+
+                            <span class="greyText">Client: </span>
+                            <span>WE Immunize</span><br />
+
+                            <span class="greyText">Completion Date: </span>
+                            <span>April 2016</span><br />
+
+                            <span class="greyText">Skillset: </span>
+                            <span class="badge badge-pill badge-success">Bootstrap</span>
+                            <span class="badge badge-pill badge-success">CSS</span>
+                            <span class="badge badge-pill badge-success">HTML</span>
+                            <span class="badge badge-pill badge-success">Javascript</span>
+                            <span class="badge badge-pill badge-success">JQuery</span>
+                            <span class="badge badge-pill badge-success">.NET MVC</span>
+                            <span class="badge badge-pill badge-success">TFS</span>
+                            <hr class="my-2" />
+
+                            <div class="projectParagraphs text-justify">
+                                <p>
+                                    &nbsp&nbsp&nbsp&nbsp&nbspWE Immunize was the second project that 
+                                    I worked on during my first co-op term at CWS. It was also the 
+                                    very first site I ever designed on my own with no existing 
+                                    resources. WE Immunize was designed to allow pharmacies in 
+                                    Alabama and California to enroll and then learn better
+                                    immunization practices.
+                                </p>
+                                <p>
+                                    &nbsp&nbsp&nbsp&nbsp&nbspInitially, I designed an entire custom
+                                    login page for this website to allow the client to host their
+                                    own form submissions which was later deleted because they 
+                                    preferred to use an existing third party form they had already
+                                    created instead. However, this challenge provided me the opportunity
+                                    to learn how to store passwords securely and how to design
+                                    a lot of items from scratch due to the client not being affiliated
+                                    with Auburn University, such as the login portal.
+                                </p>
+                            </div>
+                        </div>
+                        <div class="col-12 offset-sm-1 col-sm-10 offset-md-0 col-md-6 col-lg-5 order-1 order-md-2">
+                            <div class="projectIMGContainer">
+                                <img data-src="Content/Images/WEImmunizeFS.jpg" class="projectIMG lazy" alt="WE Immunize full screenshot">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <div class="gradient1"></div>
+            <section class="grey">
+                <div class="container py-3">
+                    <div class="row" data-aos="fade-left">
+                        <div class="col-12 offset-sm-1 col-sm-10 offset-md-0 col-md-6 col-lg-5">
+                            <div class="projectIMGContainer">
+                                <img data-src="Content/Images/OneVoiceFS.jpg" class="projectIMG lazy" alt="One Voice full screenshot">
+                            </div>
+                        </div>
+                        <div class="col-12 col-md-6 col-lg-7 projectInfo">
+                            <a class="titleLink" href="https:onevoice.auburn.edu">
+                                <h3 class="h4"><b>One Voice</b></h3>
+                            </a>
+                            <hr class="my-2" />
+
+                            <span class="greyText">Client: </span>
+                            <span>Jay Gogue - Auburn University President</span><br />
+
+                            <span class="greyText">Completion Date: </span>
+                            <span>February 2016</span><br />
+
+                            <span class="greyText">Skillset: </span>
+                            <span class="badge badge-pill badge-success">Bootstrap</span>
+                            <span class="badge badge-pill badge-success">CSS</span>
+                            <span class="badge badge-pill badge-success">C#</span>
+                            <span class="badge badge-pill badge-success">Entity Framework</span>
+                            <span class="badge badge-pill badge-success">HTML</span>
+                            <span class="badge badge-pill badge-success">Javascript</span>
+                            <span class="badge badge-pill badge-success">JQuery</span>
+                            <span class="badge badge-pill badge-success">.NET MVC</span>
+                            <span class="badge badge-pill badge-success">SQL</span>
+                            <span class="badge badge-pill badge-success">TFS</span>
+                            <hr class="my-2" />
+
+                            <div class="projectParagraphs text-justify">
+                                <p>
+                                    &nbsp&nbsp&nbsp&nbsp&nbspOne Voice was the very first web project
+                                    I ever worked on and was designed to allow Auburn faculty members
+                                    to sign up in support of state legislature that was being voted on
+                                    during the 2016 elections. It came complete with an admin backend
+                                    which allowed the president or CWS team to email all supporters
+                                    status updates after completing the form on the home page.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
         </div>
     </main>
 
@@ -101,12 +474,24 @@
         </div>
     </footer>
 
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
-        crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+		crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k"
         crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.lazy/1.7.9/jquery.lazy.min.js" crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script src="Scripts/Shared.min.js"></script>
+    <script src="Scripts/Projects.js"></script>
+
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-131471916-1"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments); }
+        gtag('js', new Date());
+
+        gtag('config', 'UA-131471916-1');
+    </script>
 </body>
 
 </html>

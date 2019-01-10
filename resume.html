@@ -37,9 +37,9 @@
                         <li class="nav-item">
                             <a class="nav-link textShadow" href="projects">Projects</a>
                         </li>
-                        <li class="nav-item">
-                            <a class="nav-link textShadow" href="about">About</a>
-                        </li>
+                        <!-- <li class="nav-item">
+                            <a class="nav-link textShadow" href="About">About</a>
+                        </li> -->
                     </ul>
                 </div>
             </div>
@@ -55,7 +55,7 @@
                 <hr class="mt-0" />
                 <ul class="list-unstyled">
                     <li class="media">
-                        <img src="Content/Images/AU.jpg" class="mr-4" height="64" width="64" alt="Auburn University Logo">
+                        <img data-src="Content/Images/AU.jpg" class="mr-4 d-none d-sm-block lazy" height="64" width="64" alt="Auburn University Logo">
                         <div class="media-body">
                             <a href="https://auburn.edu">
                                 <h4 class="mt-0 mb-1 h5"><b>Auburn University | Auburn, AL</b></h4>
@@ -73,7 +73,7 @@
                 <hr class="mt-0" />
                 <ul class="list-unstyled">
                     <li class="media">
-                        <img src="Content/Images/AU.jpg" class="mr-4" height="64" width="64" alt="Auburn University Logo">
+                        <img data-src="Content/Images/AU.jpg" class="mr-4 d-none d-sm-block lazy" height="64" width="64" alt="Auburn University Logo">
                         <div class="media-body">
                             <h4 class="mt-0 mb-1 h5"><b>Full Stack .NET Developer</b></h4>
                             <a href="https://cws.auburn.edu/cws">Campus Web Solutions | Auburn, AL</a>
@@ -90,7 +90,7 @@
                         </div>
                     </li>
                     <li class="media mt-3">
-                        <img src="Content/Images/Compassion.png" class="mr-4" height="64" width="64" alt="Compassion International Logo">
+                        <img data-src="Content/Images/Compassion.png" class="mr-4 d-none d-sm-block lazy" height="64" width="64" alt="Compassion International Logo">
                         <div class="media-body">
                             <h4 class="mt-0 mb-1 h5"><b>Software Development Intern</b></h4>
                             <a href="https://www.compassion.com/">Compassion Internation | Colorado Springs, CO</a>
@@ -220,6 +220,16 @@
         crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.lazy/1.7.9/jquery.lazy.min.js" crossorigin="anonymous"></script>
     <script src="Scripts/Shared.min.js"></script>
+
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-131471916-1"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments); }
+        gtag('js', new Date());
+
+        gtag('config', 'UA-131471916-1');
+    </script>
 </body>
 
 </html>
