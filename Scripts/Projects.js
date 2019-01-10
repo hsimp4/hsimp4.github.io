@@ -2,16 +2,16 @@ AOS.init({
     disable: 'mobile'
 });
 
+var target = window.location.hash;
+target = target.replace('#', '');
+window.location.hash = "";
+
 $(function () {
-    $(window).bind("load", function() {
-        var url = window.location.href;
-        var splitURL = url.split('#');
-        
-        if (splitURL[1] !== 'undefined') {
-            let destination = splitURL[1];
+    $(window).on('load', function() {
+        if (target) {
             $('html, body').animate({
-                scrollTop: $('#' + destination).offset().top - 50
-            }, 1500);
+                scrollTop: $("#" + target).offset().top - 50
+            }, 1000, 'swing', function () {});
         }
     });
 });
