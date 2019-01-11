@@ -1,5 +1,4 @@
 # hsimp4.github.io
-======
 This repository hosts all of the code used for my personal website, which can be found at [simpson.codes](https://simpson.codes).
 
 ## Why a portfolio?
