@@ -1,0 +1,4 @@
+This is a Brave Rewards publisher verification file.
+
+Domain: simpson.codes
+Token: 0592bb65376a37e1dbd4acb8c07953c9b617b4cabfb4cd5cfb5a6da806c05e61
